@@ -4,11 +4,6 @@
 
 1. Fork the repository
 2. Clone the repository
-
-```sh
-https://github.com/akashgupta1909/visualworkflow-demo.git
-```
-
 3. Open the folder containing the cloned repository
 4. Install the required packages, libraries and dependencies
 
