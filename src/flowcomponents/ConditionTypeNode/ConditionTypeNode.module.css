@@ -1,0 +1,6 @@
+.WrapperWrapper {
+  composes: WrapperWrapper from "../SmsTypeNode/SmsTypeNode.module.css";
+}
+.Wrapper {
+  composes: Wrapper from "../SmsTypeNode/SmsTypeNode.module.css";
+}

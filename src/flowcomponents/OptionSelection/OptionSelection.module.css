@@ -1,0 +1,17 @@
+.WrapperWrapper {
+  background-color: var(--white);
+  padding: 2rem;
+}
+.Heading {
+  text-align: center;
+  font-size: var(--font-18);
+  text-transform: capitalize;
+}
+.Wrapper {
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}

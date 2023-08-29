@@ -1,0 +1,21 @@
+.Button {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: var(--font-18);
+  background-color: var(--sec-grey);
+  transition: background-color 0.1s ease-in-out;
+}
+.Button:hover {
+  cursor: pointer;
+  background-color: var(--tert-grey);
+}
+.Handle {
+  background-color: var(--sec-grey);
+}

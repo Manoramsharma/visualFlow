@@ -1,0 +1,28 @@
+.WrapperWrapper {
+  background-color: var(--white);
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--black);
+  border-radius: 0.5rem;
+}
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Wrapper button {
+  background-color: var(--white);
+  outline: none;
+  border: 1px solid var(--tert-grey);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+  font-size: var(--font-14);
+  font-weight: 500;
+  transition: background-color 0.15s ease-in-out;
+}
+.Wrapper button:hover {
+  background-color: var(--light-aqua);
+}

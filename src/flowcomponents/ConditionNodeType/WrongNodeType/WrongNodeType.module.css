@@ -1,0 +1,4 @@
+.Wrapper {
+  composes: Wrapper from "../CorrectNodeType/CorrectNodeType.module.css";
+  background-color: var(--red);
+}

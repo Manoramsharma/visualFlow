@@ -1,0 +1,46 @@
+.Wrapper {
+  background-color: var(--white);
+  padding: 1rem 2rem;
+  border: 1px solid var(--black);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 40rem;
+}
+.Heading {
+  text-align: center;
+  font-size: var(--font-18);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.Wrapper Input,
+.Wrapper textarea {
+  background-color: var(--white);
+  outline: none;
+  border: 1px solid var(--tert-grey);
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.5rem;
+  font-size: var(--font-16);
+  font-weight: 500;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+}
+.Wrapper Button {
+  background: var(--blue-gradient);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: var(--white);
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: var(--font-14);
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+  font-size: var(--font-16);
+  transition: background-color 0.1s ease-in-out;
+}
+.Wrapper Button:hover {
+  background-color: var(--dark-aqua);
+}

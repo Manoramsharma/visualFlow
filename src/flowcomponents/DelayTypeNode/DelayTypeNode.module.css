@@ -1,0 +1,11 @@
+.WrapperWrapper {
+  composes: WrapperWrapper from "../SmsTypeNode/SmsTypeNode.module.css";
+}
+.Wrapper {
+  composes: Wrapper from "../SmsTypeNode/SmsTypeNode.module.css";
+  gap: 0.5rem;
+}
+.Wrapper p {
+  font-size: var(--font-14);
+  font-weight: 500;
+}

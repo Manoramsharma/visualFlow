@@ -1,0 +1,7 @@
+.Wrapper {
+  background-color: var(--save-green);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  gap: 1rem;
+  color: var(--white);
+}

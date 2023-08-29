@@ -1,0 +1,18 @@
+.Wrapper {
+  font-size: var(--font-16);
+  text-transform: capitalize;
+  padding: 1.5rem;
+  border: 2px solid var(--tert-grey);
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 0px 0px rgba(196, 196, 196, 0.75);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(196, 196, 196, 0.75);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(196, 196, 196, 0.75);
+  cursor: pointer;
+  transition: box-shadow 0.1s ease-in-out;
+  font-weight: 600;
+}
+.Wrapper:hover {
+  box-shadow: -1px 3px 6px 1px rgba(196, 196, 196, 0.75);
+  -webkit-box-shadow: -1px 3px 6px 1px rgba(196, 196, 196, 0.75);
+  -moz-box-shadow: -1px 3px 6px 1px rgba(196, 196, 196, 0.75);
+}
